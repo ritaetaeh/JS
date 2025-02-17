@@ -280,8 +280,8 @@ a {
 }
 
 #slider img {
-  width: 600px;
-  height: 400px;
+  max-width: 100%;
+  width: auto;
 }
 
 .randomС {
