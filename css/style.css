@@ -99,7 +99,8 @@ body {
 .button {
   margin: 12px;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -148,6 +149,7 @@ a {
 
 .product-row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-item {
